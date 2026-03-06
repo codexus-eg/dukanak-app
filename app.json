@@ -1,0 +1,96 @@
+{
+  "expo": {
+    "name": "dukanak world",
+    "slug": "doccank",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "doccank",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "icon": "./assets/images/icon.png",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "NOTIFICATIONS"
+      ],
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/icon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.abdullah.lahham125.doccank",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "category": ["BROWSABLE", "DEFAULT"],
+          "data": [
+            {
+              "scheme": "doccank"
+            }
+          ]
+        }
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.abdullah.lahham125.doccank",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true,
+      "associatedDomains": [
+        "applinks:dukanak.com"
+      ],
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to deliver orders faster",
+        "UIBackgroundModes": [
+          "remote-notification"
+        ],
+        "FirebaseAppDelegateProxyEnabled": true,
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-secure-store",
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging",
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useModularHeaders": true
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b62f8f2f-b904-4b59-87ea-100727c9b200"
+      }
+    }
+  }
+}

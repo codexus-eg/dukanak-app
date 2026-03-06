@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "67710457100",
+    "project_id": "gazacoding-8d421",
+    "storage_bucket": "gazacoding-8d421.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67710457100:android:8827f6e8d7f261b6d6e529",
+        "android_client_info": {
+          "package_name": "com.abdullah.lahham125.doccank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANrgG87A6l0wa_DFL40O-ffrrE3I4KjsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67710457100:android:e753991d48c9540fd6e529",
+        "android_client_info": {
+          "package_name": "com.abdullah_lahham123.doccank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANrgG87A6l0wa_DFL40O-ffrrE3I4KjsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67710457100:android:e83e5a08a43ba67ad6e529",
+        "android_client_info": {
+          "package_name": "com.abdullah_lahham12345.doccank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANrgG87A6l0wa_DFL40O-ffrrE3I4KjsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
